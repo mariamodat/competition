@@ -131,3 +131,15 @@ lastRow.append(lastTotal);
 lastTotal.textContent=('Totals')
 let totalsResult = document.createElement('th');
 lastRow.append(totalsResult);
+
+
+
+
+
+let form = document.getElementById('form');
+form.addEventListener('submit' , )
+
+let newLocation = function(event)
+{
+  let name =event.target.name.value
+}

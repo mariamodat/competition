@@ -17,6 +17,7 @@ function getRandomInt(min, max) {
 let table =document.querySelector('.table');
 let x=document.createElement('table');
 table.append(x);
+x.setAttribute('id' , 'xx');
 
 let headerRow =document.createElement('tr');
 x.append(headerRow);
@@ -125,7 +126,7 @@ lima.render();
 
 let lastRow = document.createElement('tr');
 x.append(lastRow);
-
+lastRow.setAttribute('id' , 'footerTa');
 let lastTotal = document.createElement('th');
 lastRow.append(lastTotal);
 lastTotal.textContent=('Totals')
@@ -137,9 +138,27 @@ lastRow.append(totalsResult);
 
 
 let form = document.getElementById('form');
-form.addEventListener('submit' , )
+form.addEventListener('submit' , newLocation );
 
-let newLocation = function(event)
+
+function  newLocation (event)
 {
-  let name =event.target.name.value
+
+  event.preventDefault();
+  let name =event.target.name.value;
+  let minCx=event.target.min.value;
+  let maxCx = event.target.max.value;
+  let avgSales=event.target.avg.value;
+
+  let logIn=new Locations (name,minCx,maxCx,avgSales);
+logIn.render();
+
+
+let tb=document.getElementById(xx);
+let foot=document.getElementById('footerTa');
+tb.removeChild(foot);
+
+
+
+
 }

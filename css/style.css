@@ -22,3 +22,22 @@ tr {
 td {
     border-right: white 2px solid ;
 }
+
+
+form {
+    width: 600px;
+    background-color: #fae0e4;
+    margin-left: 300px;
+    color: #013a63;
+}
+
+#submit {
+    margin-left: 220px;
+    padding: 15px;
+    background-color: #bee9e8;
+
+}
+
+input :focus {
+    background-color: #bee9e8;
+}

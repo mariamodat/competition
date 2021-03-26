@@ -1,3 +1,24 @@
 table {
-    border: 2px black;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: .9em;
+    min-width: 1000px;
+    background-color: #cb997e;
+    color: #3d405b;
+}
+
+table > tr td {
+    background-color: #a8dadc;
+
+
+}
+
+.table tr th {
+    padding: 20px; 
+}
+tr {
+    border-bottom: 5px solid white;
+}
+td {
+    border-right: white 2px solid ;
 }

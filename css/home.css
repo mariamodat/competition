@@ -1,0 +1,60 @@
+.background {
+    width: auto;
+    height: 400px;
+    background-image: url(../images/bg.jpg);
+   
+   
+}
+
+h1, h2 {
+    color: wheat;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    
+}
+.wel {
+
+
+    color: wheat;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    padding-top: 20px;
+
+
+
+}
+
+nav {
+    background-color: #ffe8d6;
+margin-top: -20px;
+text-align: center;
+}
+
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 60px;
+    padding: 20px;
+    
+}
+nav ul li a {
+    color:#432818;
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+.wel{
+    background-color: #90323d;
+    margin-top: -20px;
+    padding-bottom: 60px;
+}
+
+
+.images img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

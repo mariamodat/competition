@@ -50,14 +50,57 @@ nav ul li a {
     background-color: #90323d;
     margin-top: -20px;
     padding-bottom: 60px;
+    border: solid;
+    border-color: wheat;
 }
 
 
 .images  {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
+    /* width: 100px;
+    height: 100px; */
+    margin-left: 180px;
     margin-right: auto;
+    text-align: center;
+background-color: wheat;
+width: auto;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 120px;
 
 }
+
+article img{
+    float: left;
+    margin-left: 180px;
+    /* background-color:#90323d ; */
+padding-bottom: 20px;
+background-color: wheat;
+}
+
+button {
+    background-color: #3d5a80;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: white;
+    color: white;
+    border-radius: 50px;
+    width: 400px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+
+
+
+ p {
+     clear:both; 
+     text-align: left;
+
+     padding-top: 40px;
+     background-color: #90323d ;
+
+ }
